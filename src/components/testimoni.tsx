@@ -23,10 +23,10 @@ const testimonis = [
 export default function Testimoni() {
   return (
     <div className="p-10">
-      <p className="text-xl font-bold md:text-center md:text-2xl md:mb-3">Apa yang pelanggan kami katakan ?</p>
+      <p data-aos="fade-up" className="text-xl font-bold md:text-center md:text-2xl md:mb-3">Apa yang pelanggan kami katakan ?</p>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-2 md:px-20">
         {testimonis.map((item) => (
-          <Card key={item.id} className="p-4">
+          <Card data-aos="fade-up" key={item.id} className="p-4">
             <div className="mb-2 flex gap-1">
               <Star className="w-5 h-5 text-yellow-500" />
               <Star className="w-5 h-5 text-yellow-500" />

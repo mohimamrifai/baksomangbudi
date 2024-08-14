@@ -22,7 +22,7 @@ export default function Booking() {
       </div>
       <div className="absolute w-full h-full top-0 left-0 bg-gray-900/30 -z-10"></div>
 
-      <div className="flex flex-col">
+      <div data-aos="fade-up" className="flex flex-col">
         <h2 className={`${lilita_one.className} md:text-5xl text-4xl px-5 text-white text-center`}>
           Siap Meramaikan Acara Keluarga Anda!
         </h2>
