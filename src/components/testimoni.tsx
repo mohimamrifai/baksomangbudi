@@ -34,7 +34,7 @@ export default function Testimoni() {
               <Star className="w-5 h-5 text-yellow-500" />
               <Star className="w-5 h-5 text-yellow-500" />
             </div>
-            <p className="italic">" {item.text} "</p>
+            <p className="italic">{item.text}</p>
             <h4 className="mt-2 font-semibold">- {item.name}</h4>
           </Card>
         ))}
