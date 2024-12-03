@@ -13,7 +13,7 @@ export default function Booking() {
     <div className="h-[550px] flex justify-center items-center relative">
       <div className="absolute left-0 top-0 w-full h-full -z-20">
         <Image
-          src="/keluarga.jfif"
+          src="/keluarga.webp"
           alt="keluarga"
           width={1000}
           height={1000}

@@ -4,10 +4,10 @@ import { Button } from "./ui/button";
 
 export default function HistoryBakso() {
   return (
-    <div className="px-10 py-20 flex flex-col-reverse md:flex-row justify-center gap-10">
+    <div id="tentang-kami" className="px-10 py-20 flex flex-col-reverse md:flex-row justify-center gap-10">
       <div data-aos="fade-right" className="w-full md:w-4/12 flex justify-end">
         <Image
-          src="/aneka_bakso.jfif"
+          src="/aneka_bakso.webp"
           alt="aneka bakso"
           width={1000}
           height={1000}

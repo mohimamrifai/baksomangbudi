@@ -16,8 +16,9 @@ import "aos/dist/aos.css";
 export default function Home() {
   useEffect(() => {
     AOS.init({
-      delay: 100,
-      duration: 1200
+      offset: 200,
+      duration: 500,
+    once: true
     });
   }, []);
   return (
