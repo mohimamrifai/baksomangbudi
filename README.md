@@ -1,37 +1,50 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Website Bakso Mang Budi
 
-## Getting Started
+Website modern untuk Bakso Mang Budi, warung bakso tradisional yang berdiri sejak tahun 2018. Dibangun dengan teknologi terkini seperti Next.js 14 dan Tailwind CSS, website ini menampilkan berbagai fitur interaktif dan responsif untuk memberikan pengalaman terbaik bagi pengunjung. Dengan desain yang elegan namun tetap mempertahankan nuansa tradisional, website ini menjadi jembatan digital antara cita rasa autentik Bakso Mang Budi dengan pelanggan modern. Pengunjung dapat dengan mudah menjelajahi menu, membaca sejarah, melihat testimoni pelanggan, hingga melakukan pemesanan secara online.
 
-First, run the development server:
+## Fitur
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- Desain modern dan responsif
+- Animasi interaktif menggunakan AOS (Animate On Scroll)
+- Beberapa bagian termasuk:
+  - Bagian Hero/Pembuka
+  - Sejarah Bakso Mang Budi
+  - Tampilan Menu
+  - Bagian Sponsor
+  - Sistem pemesanan online
+  - Testimoni pelanggan
+  - Informasi lokasi/alamat
+  - Bagian call to action
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Teknologi yang Digunakan
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- Next.js 14 (Framework React)
+- TypeScript
+- Tailwind CSS
+- AOS (Library Animate On Scroll)
+- Google Fonts (Poppins)
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Panduan Memulai
 
-## Learn More
+### Prasyarat
 
-To learn more about Next.js, take a look at the following resources:
+- Node.js 18.17 atau versi lebih baru
+- npm atau yarn package manager
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Instalasi
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
-# baksomangbudi
+1. Clone repositori ini
+2. Masuk ke direktori proyek
+3. Install dependensi yang diperlukan
+   ```bash
+   npm install
+   # atau
+   yarn install
+   ```
+4. Jalankan server development
+   ```bash
+   npm run dev
+   # atau
+   yarn dev
+   ```
+5. Buka [http://localhost:3000](http://localhost:3000) di browser untuk melihat hasilnya
